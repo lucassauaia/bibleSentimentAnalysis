@@ -1,25 +1,25 @@
 # %% [markdown]
-## 1. Coleta de Dados
+## 1. Data Collection
 # %%
-# Importar bibliotecas
+# Import libraries
 import pandas as pd
 import numpy as np
 import os
 # %%
-# Carregar os datasets
-df_books = pd.read_csv('bible_books.csv')
-df_chapters = pd.read_csv('bible_chapters.csv')
-df_verses = pd.read_csv('bible_verses.csv')
+# Load datasets
+df_books = pd.read_csv('01Raw\\bible_books.csv')
+df_chapters = pd.read_csv('01Raw\\bible_chapters.csv')
+df_verses = pd.read_csv('01Raw\\bible_verses.csv')
 
 # Load Bible versions with proper column names
 # Using 'latin1' encoding which can handle most special characters
-df_asv_verses = pd.read_csv('t_asv.csv')
-df_bbe_verses = pd.read_csv('t_bbe.csv')
-df_kjv_verses = pd.read_csv('t_kjv.csv')
-df_web_verses = pd.read_csv('t_web.csv')
-df_dby_verses = pd.read_csv('t_dby.csv', encoding='latin1')
-df_wbr_verses = pd.read_csv('t_wbt.csv', encoding='latin1')
-df_ylt_verses = pd.read_csv('t_ylt.csv', encoding='latin1')
+df_asv_verses = pd.read_csv('01Raw\\t_asv.csv')
+df_bbe_verses = pd.read_csv('01Raw\\t_bbe.csv')
+df_kjv_verses = pd.read_csv('01Raw\\t_kjv.csv')
+df_web_verses = pd.read_csv('01Raw\\t_web.csv')
+df_dby_verses = pd.read_csv('01Raw\\t_dby.csv', encoding='latin1')
+df_wbr_verses = pd.read_csv('01Raw\\t_wbt.csv', encoding='latin1')
+df_ylt_verses = pd.read_csv('01Raw\\t_ylt.csv', encoding='latin1')
 
 # Create a unified DataFrame with all versions
 df_verses_all = df_verses.copy()  # Start with the base verse information
@@ -56,11 +56,12 @@ print(df_verses_all.columns.tolist())
 print("\nShape of the combined DataFrame:", df_verses_all.shape)
 
 # Export the combined DataFrame to CSV
-df_verses_all.to_csv('all_bible_verses.csv', index=False)
+df_verses_all.to_csv('02Analytics\\all_bible_verses.csv', index=False)
 print("\nDataFrame exported to 'all_bible_verses.csv'")
 
 # %%
-# Concatenar todos os versos [v] por capítulo [c], separados por espaço
+# Concatenate all verses [v] by chapter [c], separated by space
+
 
 # Process ASV version
 df_asv_verses['bc'] = df_asv_verses['b'].apply(lambda x: f"{int(x):02d}") + df_asv_verses['c'].apply(lambda x: f"{int(x):03d}")
@@ -146,7 +147,7 @@ df_chapters_all = df_asv_chapters.merge(
 )
 
 # Export the combined chapters DataFrame to CSV
-df_chapters_all.to_csv('all_bible_chapters.csv', index=False)
+df_chapters_all.to_csv('02Analytics\\all_bible_chapters.csv', index=False)
 print("\nChapters DataFrame exported to 'all_bible_chapters.csv'")
 
 print("\nCombined chapters DataFrame sample:")
@@ -156,7 +157,7 @@ print(df_chapters_all.columns.tolist())
 print("\nShape of the combined chapters DataFrame:", df_chapters_all.shape)
 
 # %%
-# Concatenar todos os capítulos por livro, separados por espaço
+# Concatenate all chapters by book, separated by spaces
 
 # Process ASV version to book level
 df_asv_books = df_asv_chapters.groupby('b', as_index=False).agg({
@@ -244,7 +245,7 @@ print(df_books_all.columns.tolist())
 print("\nShape of the combined books DataFrame:", df_books_all.shape)
 
 # Export the combined books DataFrame to CSV
-df_books_all.to_csv('all_bible_books.csv', index=False)
+df_books_all.to_csv('02Analytics\\all_bible_books.csv', index=False)
 print("\nBooks DataFrame exported to 'all_bible_books.csv'")
 
 # %%
@@ -276,7 +277,7 @@ print("\nBooks DataFrame with sentiment analysis sample:")
 print(df_books_all.head())
 
 # Export the books DataFrame with sentiment analysis to CSV
-df_books_all.to_csv('all_bible_books_with_sentiment.csv', index=False)
+df_books_all.to_csv('02Analytics\\all_bible_books_with_sentiment.csv', index=False)
 
 print("\nBooks DataFrame with sentiment analysis exported to 'all_bible_books_with_sentiment.csv'")
 
@@ -290,7 +291,7 @@ print("\nChapters DataFrame with sentiment analysis sample:")
 print(df_chapters_all.head())
 
 # Export the chapters DataFrame with sentiment analysis to CSV
-df_chapters_all.to_csv('all_bible_chapters_with_sentiment.csv', index=False)
+df_chapters_all.to_csv('02Analytics\\all_bible_chapters_with_sentiment.csv', index=False)
 
 print("\nChapters DataFrame with sentiment analysis exported to 'all_bible_chapters_with_sentiment.csv'")
 
@@ -305,10 +306,57 @@ print("\nVerses DataFrame with sentiment analysis sample:")
 print(df_verses_all.head())
 
 # Export the verses DataFrame with sentiment analysis to CSV
-df_verses_all.to_csv('all_bible_verses_with_sentiment.csv', index=False)
+df_verses_all.to_csv('02Analytics\\all_bible_verses_with_sentiment.csv', index=False)
 
 print("\nVerses DataFrame with sentiment analysis exported to 'all_bible_verses_with_sentiment.csv'")
 
 # %%
-df_original_verses = pd.read_csv('StructuredBible.csv')
-df_original_verses.head()
+df_original_verses = pd.read_csv('01Raw\StructuredBible.csv')
+
+# Create verse_id by concatenating book_id (2 digits), chapter_id (3 digits), and verse (3 digits)
+df_original_verses['verse_id'] = (
+    df_original_verses['book_id'].apply(lambda x: f"{int(x):02d}") + 
+    df_original_verses['chapter_id'].apply(lambda x: f"{int(x):03d}") + 
+    df_original_verses['verse'].apply(lambda x: f"{int(x):03d}")
+)
+
+# Keep only columns [verse_id, world_english_bible_web, king_james_bible_jkv, jewish_publication_society_jps, brenton, samaritan_pentateuch_english, onkelos_nglish]
+df_original_verses = df_original_verses[['book_id', 'chapter_id', 'verse_id',
+                                         'world_english_bible_web', 'king_james_bible_jkv',
+                                         'jewish_publication_society_jps', 'brenton',
+                                         'samaritan_pentateuch_english', 'onkelos_nglish']]
+# %%
+# Create a new dataframe with all verses concatenated by chapter
+df_original_chapters = df_original_verses.groupby(['book_id', 'chapter_id'], as_index=False).agg(
+    verse=('verse', lambda x: ' '.join(x.astype(str)))
+)
+# Create a new [chapter_id] to be five digits, two digits of [book_id] and three digits of [chapter_id]
+df_original_chapters['chapter_id'] = df_original_chapters.apply(
+    lambda row: f"{int(row['book_id']):02d}{int(row['chapter_id']):03d}", axis=1
+)
+# Keep only the columns [chapter_id, world_english_bible_web, king_james_bible_jkv, jewish_publication_society_jps, brenton, samaritan_pentateuch_english, onkelos_nglish]
+df_original_chapters = df_original_chapters[['book_id', 'chapter_id',
+                                             'world_english_bible_web', 'king_james_bible_jkv',
+                                             'jewish_publication_society_jps', 'brenton',
+                                             'samaritan_pentateuch_english', 'onkelos_nglish']]
+
+# %%
+# Create a new dataframe with all chpters concatenated by book
+df_original_books = df_original_chapters.groupby('book_id', as_index=False).agg(
+    chapter=('chapter_id', lambda x: ' '.join(x.astype(str)))
+)
+# Update [book_id] to be two digits
+df_original_books['book_id'] = df_original_books['book_id'].apply(lambda x: f"{int(x):02d}")
+# Keep only the columns [book_id, world_english_bible_web, king_james_bible_jkv, jewish_publication_society_jps, brenton, samaritan_pentateuch_english, onkelos_nglish]
+df_original_books = df_original_books[['book_id',
+                                       'world_english_bible_web', 'king_james_bible_jkv',
+                                       'jewish_publication_society_jps', 'brenton',
+                                       'samaritan_pentateuch_english', 'onkelos_nglish']]
+# %%
+# Export the original verses, chapters, and books dataframes to CSV files
+df_original_verses.to_csv('02Analytics\\original_bible_verses.csv', index=False)
+df_original_chapters.to_csv('02Analytics\\original_bible_chapters.csv', index=False)
+df_original_books.to_csv('02Analytics\\original_bible_books.csv', index=False)
+
+# %%
+# Add sentiment analysis columns to the verses DataFrame
