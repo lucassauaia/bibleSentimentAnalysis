@@ -1,0 +1,1190 @@
+chapter_id,chapter_name
+01001,Genesis 1
+01002,Genesis 2
+01003,Genesis 3
+01004,Genesis 4
+01005,Genesis 5
+01006,Genesis 6
+01007,Genesis 7
+01008,Genesis 8
+01009,Genesis 9
+01010,Genesis 10
+01011,Genesis 11
+01012,Genesis 12
+01013,Genesis 13
+01014,Genesis 14
+01015,Genesis 15
+01016,Genesis 16
+01017,Genesis 17
+01018,Genesis 18
+01019,Genesis 19
+01020,Genesis 20
+01021,Genesis 21
+01022,Genesis 22
+01023,Genesis 23
+01024,Genesis 24
+01025,Genesis 25
+01026,Genesis 26
+01027,Genesis 27
+01028,Genesis 28
+01029,Genesis 29
+01030,Genesis 30
+01031,Genesis 31
+01032,Genesis 32
+01033,Genesis 33
+01034,Genesis 34
+01035,Genesis 35
+01036,Genesis 36
+01037,Genesis 37
+01038,Genesis 38
+01039,Genesis 39
+01040,Genesis 40
+01041,Genesis 41
+01042,Genesis 42
+01043,Genesis 43
+01044,Genesis 44
+01045,Genesis 45
+01046,Genesis 46
+01047,Genesis 47
+01048,Genesis 48
+01049,Genesis 49
+01050,Genesis 50
+02001,Exodus 1
+02002,Exodus 2
+02003,Exodus 3
+02004,Exodus 4
+02005,Exodus 5
+02006,Exodus 6
+02007,Exodus 7
+02008,Exodus 8
+02009,Exodus 9
+02010,Exodus 10
+02011,Exodus 11
+02012,Exodus 12
+02013,Exodus 13
+02014,Exodus 14
+02015,Exodus 15
+02016,Exodus 16
+02017,Exodus 17
+02018,Exodus 18
+02019,Exodus 19
+02020,Exodus 20
+02021,Exodus 21
+02022,Exodus 22
+02023,Exodus 23
+02024,Exodus 24
+02025,Exodus 25
+02026,Exodus 26
+02027,Exodus 27
+02028,Exodus 28
+02029,Exodus 29
+02030,Exodus 30
+02031,Exodus 31
+02032,Exodus 32
+02033,Exodus 33
+02034,Exodus 34
+02035,Exodus 35
+02036,Exodus 36
+02037,Exodus 37
+02038,Exodus 38
+02039,Exodus 39
+02040,Exodus 40
+03001,Leviticus 1
+03002,Leviticus 2
+03003,Leviticus 3
+03004,Leviticus 4
+03005,Leviticus 5
+03006,Leviticus 6
+03007,Leviticus 7
+03008,Leviticus 8
+03009,Leviticus 9
+03010,Leviticus 10
+03011,Leviticus 11
+03012,Leviticus 12
+03013,Leviticus 13
+03014,Leviticus 14
+03015,Leviticus 15
+03016,Leviticus 16
+03017,Leviticus 17
+03018,Leviticus 18
+03019,Leviticus 19
+03020,Leviticus 20
+03021,Leviticus 21
+03022,Leviticus 22
+03023,Leviticus 23
+03024,Leviticus 24
+03025,Leviticus 25
+03026,Leviticus 26
+03027,Leviticus 27
+04001,Numbers 1
+04002,Numbers 2
+04003,Numbers 3
+04004,Numbers 4
+04005,Numbers 5
+04006,Numbers 6
+04007,Numbers 7
+04008,Numbers 8
+04009,Numbers 9
+04010,Numbers 10
+04011,Numbers 11
+04012,Numbers 12
+04013,Numbers 13
+04014,Numbers 14
+04015,Numbers 15
+04016,Numbers 16
+04017,Numbers 17
+04018,Numbers 18
+04019,Numbers 19
+04020,Numbers 20
+04021,Numbers 21
+04022,Numbers 22
+04023,Numbers 23
+04024,Numbers 24
+04025,Numbers 25
+04026,Numbers 26
+04027,Numbers 27
+04028,Numbers 28
+04029,Numbers 29
+04030,Numbers 30
+04031,Numbers 31
+04032,Numbers 32
+04033,Numbers 33
+04034,Numbers 34
+04035,Numbers 35
+04036,Numbers 36
+05001,Deuteronomy 1
+05002,Deuteronomy 2
+05003,Deuteronomy 3
+05004,Deuteronomy 4
+05005,Deuteronomy 5
+05006,Deuteronomy 6
+05007,Deuteronomy 7
+05008,Deuteronomy 8
+05009,Deuteronomy 9
+05010,Deuteronomy 10
+05011,Deuteronomy 11
+05012,Deuteronomy 12
+05013,Deuteronomy 13
+05014,Deuteronomy 14
+05015,Deuteronomy 15
+05016,Deuteronomy 16
+05017,Deuteronomy 17
+05018,Deuteronomy 18
+05019,Deuteronomy 19
+05020,Deuteronomy 20
+05021,Deuteronomy 21
+05022,Deuteronomy 22
+05023,Deuteronomy 23
+05024,Deuteronomy 24
+05025,Deuteronomy 25
+05026,Deuteronomy 26
+05027,Deuteronomy 27
+05028,Deuteronomy 28
+05029,Deuteronomy 29
+05030,Deuteronomy 30
+05031,Deuteronomy 31
+05032,Deuteronomy 32
+05033,Deuteronomy 33
+05034,Deuteronomy 34
+06001,Joshua 1
+06002,Joshua 2
+06003,Joshua 3
+06004,Joshua 4
+06005,Joshua 5
+06006,Joshua 6
+06007,Joshua 7
+06008,Joshua 8
+06009,Joshua 9
+06010,Joshua 10
+06011,Joshua 11
+06012,Joshua 12
+06013,Joshua 13
+06014,Joshua 14
+06015,Joshua 15
+06016,Joshua 16
+06017,Joshua 17
+06018,Joshua 18
+06019,Joshua 19
+06020,Joshua 20
+06021,Joshua 21
+06022,Joshua 22
+06023,Joshua 23
+06024,Joshua 24
+07001,Judges 1
+07002,Judges 2
+07003,Judges 3
+07004,Judges 4
+07005,Judges 5
+07006,Judges 6
+07007,Judges 7
+07008,Judges 8
+07009,Judges 9
+07010,Judges 10
+07011,Judges 11
+07012,Judges 12
+07013,Judges 13
+07014,Judges 14
+07015,Judges 15
+07016,Judges 16
+07017,Judges 17
+07018,Judges 18
+07019,Judges 19
+07020,Judges 20
+07021,Judges 21
+08001,Ruth 1
+08002,Ruth 2
+08003,Ruth 3
+08004,Ruth 4
+09001,1 Samuel 1
+09002,1 Samuel 2
+09003,1 Samuel 3
+09004,1 Samuel 4
+09005,1 Samuel 5
+09006,1 Samuel 6
+09007,1 Samuel 7
+09008,1 Samuel 8
+09009,1 Samuel 9
+09010,1 Samuel 10
+09011,1 Samuel 11
+09012,1 Samuel 12
+09013,1 Samuel 13
+09014,1 Samuel 14
+09015,1 Samuel 15
+09016,1 Samuel 16
+09017,1 Samuel 17
+09018,1 Samuel 18
+09019,1 Samuel 19
+09020,1 Samuel 20
+09021,1 Samuel 21
+09022,1 Samuel 22
+09023,1 Samuel 23
+09024,1 Samuel 24
+09025,1 Samuel 25
+09026,1 Samuel 26
+09027,1 Samuel 27
+09028,1 Samuel 28
+09029,1 Samuel 29
+09030,1 Samuel 30
+09031,1 Samuel 31
+10001,2 Samuel 1
+10002,2 Samuel 2
+10003,2 Samuel 3
+10004,2 Samuel 4
+10005,2 Samuel 5
+10006,2 Samuel 6
+10007,2 Samuel 7
+10008,2 Samuel 8
+10009,2 Samuel 9
+10010,2 Samuel 10
+10011,2 Samuel 11
+10012,2 Samuel 12
+10013,2 Samuel 13
+10014,2 Samuel 14
+10015,2 Samuel 15
+10016,2 Samuel 16
+10017,2 Samuel 17
+10018,2 Samuel 18
+10019,2 Samuel 19
+10020,2 Samuel 20
+10021,2 Samuel 21
+10022,2 Samuel 22
+10023,2 Samuel 23
+10024,2 Samuel 24
+11001,1 Kings 1
+11002,1 Kings 2
+11003,1 Kings 3
+11004,1 Kings 4
+11005,1 Kings 5
+11006,1 Kings 6
+11007,1 Kings 7
+11008,1 Kings 8
+11009,1 Kings 9
+11010,1 Kings 10
+11011,1 Kings 11
+11012,1 Kings 12
+11013,1 Kings 13
+11014,1 Kings 14
+11015,1 Kings 15
+11016,1 Kings 16
+11017,1 Kings 17
+11018,1 Kings 18
+11019,1 Kings 19
+11020,1 Kings 20
+11021,1 Kings 21
+11022,1 Kings 22
+12001,2 Kings 1
+12002,2 Kings 2
+12003,2 Kings 3
+12004,2 Kings 4
+12005,2 Kings 5
+12006,2 Kings 6
+12007,2 Kings 7
+12008,2 Kings 8
+12009,2 Kings 9
+12010,2 Kings 10
+12011,2 Kings 11
+12012,2 Kings 12
+12013,2 Kings 13
+12014,2 Kings 14
+12015,2 Kings 15
+12016,2 Kings 16
+12017,2 Kings 17
+12018,2 Kings 18
+12019,2 Kings 19
+12020,2 Kings 20
+12021,2 Kings 21
+12022,2 Kings 22
+12023,2 Kings 23
+12024,2 Kings 24
+12025,2 Kings 25
+13001,1 Chronicles 1
+13002,1 Chronicles 2
+13003,1 Chronicles 3
+13004,1 Chronicles 4
+13005,1 Chronicles 5
+13006,1 Chronicles 6
+13007,1 Chronicles 7
+13008,1 Chronicles 8
+13009,1 Chronicles 9
+13010,1 Chronicles 10
+13011,1 Chronicles 11
+13012,1 Chronicles 12
+13013,1 Chronicles 13
+13014,1 Chronicles 14
+13015,1 Chronicles 15
+13016,1 Chronicles 16
+13017,1 Chronicles 17
+13018,1 Chronicles 18
+13019,1 Chronicles 19
+13020,1 Chronicles 20
+13021,1 Chronicles 21
+13022,1 Chronicles 22
+13023,1 Chronicles 23
+13024,1 Chronicles 24
+13025,1 Chronicles 25
+13026,1 Chronicles 26
+13027,1 Chronicles 27
+13028,1 Chronicles 28
+13029,1 Chronicles 29
+14001,2 Chronicles 1
+14002,2 Chronicles 2
+14003,2 Chronicles 3
+14004,2 Chronicles 4
+14005,2 Chronicles 5
+14006,2 Chronicles 6
+14007,2 Chronicles 7
+14008,2 Chronicles 8
+14009,2 Chronicles 9
+14010,2 Chronicles 10
+14011,2 Chronicles 11
+14012,2 Chronicles 12
+14013,2 Chronicles 13
+14014,2 Chronicles 14
+14015,2 Chronicles 15
+14016,2 Chronicles 16
+14017,2 Chronicles 17
+14018,2 Chronicles 18
+14019,2 Chronicles 19
+14020,2 Chronicles 20
+14021,2 Chronicles 21
+14022,2 Chronicles 22
+14023,2 Chronicles 23
+14024,2 Chronicles 24
+14025,2 Chronicles 25
+14026,2 Chronicles 26
+14027,2 Chronicles 27
+14028,2 Chronicles 28
+14029,2 Chronicles 29
+14030,2 Chronicles 30
+14031,2 Chronicles 31
+14032,2 Chronicles 32
+14033,2 Chronicles 33
+14034,2 Chronicles 34
+14035,2 Chronicles 35
+14036,2 Chronicles 36
+15001,Ezra 1
+15002,Ezra 2
+15003,Ezra 3
+15004,Ezra 4
+15005,Ezra 5
+15006,Ezra 6
+15007,Ezra 7
+15008,Ezra 8
+15009,Ezra 9
+15010,Ezra 10
+16001,Nehemiah 1
+16002,Nehemiah 2
+16003,Nehemiah 3
+16004,Nehemiah 4
+16005,Nehemiah 5
+16006,Nehemiah 6
+16007,Nehemiah 7
+16008,Nehemiah 8
+16009,Nehemiah 9
+16010,Nehemiah 10
+16011,Nehemiah 11
+16012,Nehemiah 12
+16013,Nehemiah 13
+17001,Esther 1
+17002,Esther 2
+17003,Esther 3
+17004,Esther 4
+17005,Esther 5
+17006,Esther 6
+17007,Esther 7
+17008,Esther 8
+17009,Esther 9
+17010,Esther 10
+18001,Job 1
+18002,Job 2
+18003,Job 3
+18004,Job 4
+18005,Job 5
+18006,Job 6
+18007,Job 7
+18008,Job 8
+18009,Job 9
+18010,Job 10
+18011,Job 11
+18012,Job 12
+18013,Job 13
+18014,Job 14
+18015,Job 15
+18016,Job 16
+18017,Job 17
+18018,Job 18
+18019,Job 19
+18020,Job 20
+18021,Job 21
+18022,Job 22
+18023,Job 23
+18024,Job 24
+18025,Job 25
+18026,Job 26
+18027,Job 27
+18028,Job 28
+18029,Job 29
+18030,Job 30
+18031,Job 31
+18032,Job 32
+18033,Job 33
+18034,Job 34
+18035,Job 35
+18036,Job 36
+18037,Job 37
+18038,Job 38
+18039,Job 39
+18040,Job 40
+18041,Job 41
+18042,Job 42
+19001,Psalms 1
+19002,Psalms 2
+19003,Psalms 3
+19004,Psalms 4
+19005,Psalms 5
+19006,Psalms 6
+19007,Psalms 7
+19008,Psalms 8
+19009,Psalms 9
+19010,Psalms 10
+19011,Psalms 11
+19012,Psalms 12
+19013,Psalms 13
+19014,Psalms 14
+19015,Psalms 15
+19016,Psalms 16
+19017,Psalms 17
+19018,Psalms 18
+19019,Psalms 19
+19020,Psalms 20
+19021,Psalms 21
+19022,Psalms 22
+19023,Psalms 23
+19024,Psalms 24
+19025,Psalms 25
+19026,Psalms 26
+19027,Psalms 27
+19028,Psalms 28
+19029,Psalms 29
+19030,Psalms 30
+19031,Psalms 31
+19032,Psalms 32
+19033,Psalms 33
+19034,Psalms 34
+19035,Psalms 35
+19036,Psalms 36
+19037,Psalms 37
+19038,Psalms 38
+19039,Psalms 39
+19040,Psalms 40
+19041,Psalms 41
+19042,Psalms 42
+19043,Psalms 43
+19044,Psalms 44
+19045,Psalms 45
+19046,Psalms 46
+19047,Psalms 47
+19048,Psalms 48
+19049,Psalms 49
+19050,Psalms 50
+19051,Psalms 51
+19052,Psalms 52
+19053,Psalms 53
+19054,Psalms 54
+19055,Psalms 55
+19056,Psalms 56
+19057,Psalms 57
+19058,Psalms 58
+19059,Psalms 59
+19060,Psalms 60
+19061,Psalms 61
+19062,Psalms 62
+19063,Psalms 63
+19064,Psalms 64
+19065,Psalms 65
+19066,Psalms 66
+19067,Psalms 67
+19068,Psalms 68
+19069,Psalms 69
+19070,Psalms 70
+19071,Psalms 71
+19072,Psalms 72
+19073,Psalms 73
+19074,Psalms 74
+19075,Psalms 75
+19076,Psalms 76
+19077,Psalms 77
+19078,Psalms 78
+19079,Psalms 79
+19080,Psalms 80
+19081,Psalms 81
+19082,Psalms 82
+19083,Psalms 83
+19084,Psalms 84
+19085,Psalms 85
+19086,Psalms 86
+19087,Psalms 87
+19088,Psalms 88
+19089,Psalms 89
+19090,Psalms 90
+19091,Psalms 91
+19092,Psalms 92
+19093,Psalms 93
+19094,Psalms 94
+19095,Psalms 95
+19096,Psalms 96
+19097,Psalms 97
+19098,Psalms 98
+19099,Psalms 99
+19100,Psalms 100
+19101,Psalms 101
+19102,Psalms 102
+19103,Psalms 103
+19104,Psalms 104
+19105,Psalms 105
+19106,Psalms 106
+19107,Psalms 107
+19108,Psalms 108
+19109,Psalms 109
+19110,Psalms 110
+19111,Psalms 111
+19112,Psalms 112
+19113,Psalms 113
+19114,Psalms 114
+19115,Psalms 115
+19116,Psalms 116
+19117,Psalms 117
+19118,Psalms 118
+19119,Psalms 119
+19120,Psalms 120
+19121,Psalms 121
+19122,Psalms 122
+19123,Psalms 123
+19124,Psalms 124
+19125,Psalms 125
+19126,Psalms 126
+19127,Psalms 127
+19128,Psalms 128
+19129,Psalms 129
+19130,Psalms 130
+19131,Psalms 131
+19132,Psalms 132
+19133,Psalms 133
+19134,Psalms 134
+19135,Psalms 135
+19136,Psalms 136
+19137,Psalms 137
+19138,Psalms 138
+19139,Psalms 139
+19140,Psalms 140
+19141,Psalms 141
+19142,Psalms 142
+19143,Psalms 143
+19144,Psalms 144
+19145,Psalms 145
+19146,Psalms 146
+19147,Psalms 147
+19148,Psalms 148
+19149,Psalms 149
+19150,Psalms 150
+20001,Proverbs 1
+20002,Proverbs 2
+20003,Proverbs 3
+20004,Proverbs 4
+20005,Proverbs 5
+20006,Proverbs 6
+20007,Proverbs 7
+20008,Proverbs 8
+20009,Proverbs 9
+20010,Proverbs 10
+20011,Proverbs 11
+20012,Proverbs 12
+20013,Proverbs 13
+20014,Proverbs 14
+20015,Proverbs 15
+20016,Proverbs 16
+20017,Proverbs 17
+20018,Proverbs 18
+20019,Proverbs 19
+20020,Proverbs 20
+20021,Proverbs 21
+20022,Proverbs 22
+20023,Proverbs 23
+20024,Proverbs 24
+20025,Proverbs 25
+20026,Proverbs 26
+20027,Proverbs 27
+20028,Proverbs 28
+20029,Proverbs 29
+20030,Proverbs 30
+20031,Proverbs 31
+21001,Ecclesiastes 1
+21002,Ecclesiastes 2
+21003,Ecclesiastes 3
+21004,Ecclesiastes 4
+21005,Ecclesiastes 5
+21006,Ecclesiastes 6
+21007,Ecclesiastes 7
+21008,Ecclesiastes 8
+21009,Ecclesiastes 9
+21010,Ecclesiastes 10
+21011,Ecclesiastes 11
+21012,Ecclesiastes 12
+22001,Song of Solomon 1
+22002,Song of Solomon 2
+22003,Song of Solomon 3
+22004,Song of Solomon 4
+22005,Song of Solomon 5
+22006,Song of Solomon 6
+22007,Song of Solomon 7
+22008,Song of Solomon 8
+23001,Isaiah 1
+23002,Isaiah 2
+23003,Isaiah 3
+23004,Isaiah 4
+23005,Isaiah 5
+23006,Isaiah 6
+23007,Isaiah 7
+23008,Isaiah 8
+23009,Isaiah 9
+23010,Isaiah 10
+23011,Isaiah 11
+23012,Isaiah 12
+23013,Isaiah 13
+23014,Isaiah 14
+23015,Isaiah 15
+23016,Isaiah 16
+23017,Isaiah 17
+23018,Isaiah 18
+23019,Isaiah 19
+23020,Isaiah 20
+23021,Isaiah 21
+23022,Isaiah 22
+23023,Isaiah 23
+23024,Isaiah 24
+23025,Isaiah 25
+23026,Isaiah 26
+23027,Isaiah 27
+23028,Isaiah 28
+23029,Isaiah 29
+23030,Isaiah 30
+23031,Isaiah 31
+23032,Isaiah 32
+23033,Isaiah 33
+23034,Isaiah 34
+23035,Isaiah 35
+23036,Isaiah 36
+23037,Isaiah 37
+23038,Isaiah 38
+23039,Isaiah 39
+23040,Isaiah 40
+23041,Isaiah 41
+23042,Isaiah 42
+23043,Isaiah 43
+23044,Isaiah 44
+23045,Isaiah 45
+23046,Isaiah 46
+23047,Isaiah 47
+23048,Isaiah 48
+23049,Isaiah 49
+23050,Isaiah 50
+23051,Isaiah 51
+23052,Isaiah 52
+23053,Isaiah 53
+23054,Isaiah 54
+23055,Isaiah 55
+23056,Isaiah 56
+23057,Isaiah 57
+23058,Isaiah 58
+23059,Isaiah 59
+23060,Isaiah 60
+23061,Isaiah 61
+23062,Isaiah 62
+23063,Isaiah 63
+23064,Isaiah 64
+23065,Isaiah 65
+23066,Isaiah 66
+24001,Jeremiah 1
+24002,Jeremiah 2
+24003,Jeremiah 3
+24004,Jeremiah 4
+24005,Jeremiah 5
+24006,Jeremiah 6
+24007,Jeremiah 7
+24008,Jeremiah 8
+24009,Jeremiah 9
+24010,Jeremiah 10
+24011,Jeremiah 11
+24012,Jeremiah 12
+24013,Jeremiah 13
+24014,Jeremiah 14
+24015,Jeremiah 15
+24016,Jeremiah 16
+24017,Jeremiah 17
+24018,Jeremiah 18
+24019,Jeremiah 19
+24020,Jeremiah 20
+24021,Jeremiah 21
+24022,Jeremiah 22
+24023,Jeremiah 23
+24024,Jeremiah 24
+24025,Jeremiah 25
+24026,Jeremiah 26
+24027,Jeremiah 27
+24028,Jeremiah 28
+24029,Jeremiah 29
+24030,Jeremiah 30
+24031,Jeremiah 31
+24032,Jeremiah 32
+24033,Jeremiah 33
+24034,Jeremiah 34
+24035,Jeremiah 35
+24036,Jeremiah 36
+24037,Jeremiah 37
+24038,Jeremiah 38
+24039,Jeremiah 39
+24040,Jeremiah 40
+24041,Jeremiah 41
+24042,Jeremiah 42
+24043,Jeremiah 43
+24044,Jeremiah 44
+24045,Jeremiah 45
+24046,Jeremiah 46
+24047,Jeremiah 47
+24048,Jeremiah 48
+24049,Jeremiah 49
+24050,Jeremiah 50
+24051,Jeremiah 51
+24052,Jeremiah 52
+25001,Lamentations 1
+25002,Lamentations 2
+25003,Lamentations 3
+25004,Lamentations 4
+25005,Lamentations 5
+26001,Ezekiel 1
+26002,Ezekiel 2
+26003,Ezekiel 3
+26004,Ezekiel 4
+26005,Ezekiel 5
+26006,Ezekiel 6
+26007,Ezekiel 7
+26008,Ezekiel 8
+26009,Ezekiel 9
+26010,Ezekiel 10
+26011,Ezekiel 11
+26012,Ezekiel 12
+26013,Ezekiel 13
+26014,Ezekiel 14
+26015,Ezekiel 15
+26016,Ezekiel 16
+26017,Ezekiel 17
+26018,Ezekiel 18
+26019,Ezekiel 19
+26020,Ezekiel 20
+26021,Ezekiel 21
+26022,Ezekiel 22
+26023,Ezekiel 23
+26024,Ezekiel 24
+26025,Ezekiel 25
+26026,Ezekiel 26
+26027,Ezekiel 27
+26028,Ezekiel 28
+26029,Ezekiel 29
+26030,Ezekiel 30
+26031,Ezekiel 31
+26032,Ezekiel 32
+26033,Ezekiel 33
+26034,Ezekiel 34
+26035,Ezekiel 35
+26036,Ezekiel 36
+26037,Ezekiel 37
+26038,Ezekiel 38
+26039,Ezekiel 39
+26040,Ezekiel 40
+26041,Ezekiel 41
+26042,Ezekiel 42
+26043,Ezekiel 43
+26044,Ezekiel 44
+26045,Ezekiel 45
+26046,Ezekiel 46
+26047,Ezekiel 47
+26048,Ezekiel 48
+27001,Daniel 1
+27002,Daniel 2
+27003,Daniel 3
+27004,Daniel 4
+27005,Daniel 5
+27006,Daniel 6
+27007,Daniel 7
+27008,Daniel 8
+27009,Daniel 9
+27010,Daniel 10
+27011,Daniel 11
+27012,Daniel 12
+28001,Hosea 1
+28002,Hosea 2
+28003,Hosea 3
+28004,Hosea 4
+28005,Hosea 5
+28006,Hosea 6
+28007,Hosea 7
+28008,Hosea 8
+28009,Hosea 9
+28010,Hosea 10
+28011,Hosea 11
+28012,Hosea 12
+28013,Hosea 13
+28014,Hosea 14
+29001,Joel 1
+29002,Joel 2
+29003,Joel 3
+30001,Amos 1
+30002,Amos 2
+30003,Amos 3
+30004,Amos 4
+30005,Amos 5
+30006,Amos 6
+30007,Amos 7
+30008,Amos 8
+30009,Amos 9
+31001,Obadiah 1
+32001,Jonah 1
+32002,Jonah 2
+32003,Jonah 3
+32004,Jonah 4
+33001,Micah 1
+33002,Micah 2
+33003,Micah 3
+33004,Micah 4
+33005,Micah 5
+33006,Micah 6
+33007,Micah 7
+34001,Nahum 1
+34002,Nahum 2
+34003,Nahum 3
+35001,Habakkuk 1
+35002,Habakkuk 2
+35003,Habakkuk 3
+36001,Zephaniah 1
+36002,Zephaniah 2
+36003,Zephaniah 3
+37001,Haggai 1
+37002,Haggai 2
+38001,Zechariah 1
+38002,Zechariah 2
+38003,Zechariah 3
+38004,Zechariah 4
+38005,Zechariah 5
+38006,Zechariah 6
+38007,Zechariah 7
+38008,Zechariah 8
+38009,Zechariah 9
+38010,Zechariah 10
+38011,Zechariah 11
+38012,Zechariah 12
+38013,Zechariah 13
+38014,Zechariah 14
+39001,Malachi 1
+39002,Malachi 2
+39003,Malachi 3
+39004,Malachi 4
+40001,Matthew 1
+40002,Matthew 2
+40003,Matthew 3
+40004,Matthew 4
+40005,Matthew 5
+40006,Matthew 6
+40007,Matthew 7
+40008,Matthew 8
+40009,Matthew 9
+40010,Matthew 10
+40011,Matthew 11
+40012,Matthew 12
+40013,Matthew 13
+40014,Matthew 14
+40015,Matthew 15
+40016,Matthew 16
+40017,Matthew 17
+40018,Matthew 18
+40019,Matthew 19
+40020,Matthew 20
+40021,Matthew 21
+40022,Matthew 22
+40023,Matthew 23
+40024,Matthew 24
+40025,Matthew 25
+40026,Matthew 26
+40027,Matthew 27
+40028,Matthew 28
+41001,Mark 1
+41002,Mark 2
+41003,Mark 3
+41004,Mark 4
+41005,Mark 5
+41006,Mark 6
+41007,Mark 7
+41008,Mark 8
+41009,Mark 9
+41010,Mark 10
+41011,Mark 11
+41012,Mark 12
+41013,Mark 13
+41014,Mark 14
+41015,Mark 15
+41016,Mark 16
+42001,Luke 1
+42002,Luke 2
+42003,Luke 3
+42004,Luke 4
+42005,Luke 5
+42006,Luke 6
+42007,Luke 7
+42008,Luke 8
+42009,Luke 9
+42010,Luke 10
+42011,Luke 11
+42012,Luke 12
+42013,Luke 13
+42014,Luke 14
+42015,Luke 15
+42016,Luke 16
+42017,Luke 17
+42018,Luke 18
+42019,Luke 19
+42020,Luke 20
+42021,Luke 21
+42022,Luke 22
+42023,Luke 23
+42024,Luke 24
+43001,John 1
+43002,John 2
+43003,John 3
+43004,John 4
+43005,John 5
+43006,John 6
+43007,John 7
+43008,John 8
+43009,John 9
+43010,John 10
+43011,John 11
+43012,John 12
+43013,John 13
+43014,John 14
+43015,John 15
+43016,John 16
+43017,John 17
+43018,John 18
+43019,John 19
+43020,John 20
+43021,John 21
+44001,Acts 1
+44002,Acts 2
+44003,Acts 3
+44004,Acts 4
+44005,Acts 5
+44006,Acts 6
+44007,Acts 7
+44008,Acts 8
+44009,Acts 9
+44010,Acts 10
+44011,Acts 11
+44012,Acts 12
+44013,Acts 13
+44014,Acts 14
+44015,Acts 15
+44016,Acts 16
+44017,Acts 17
+44018,Acts 18
+44019,Acts 19
+44020,Acts 20
+44021,Acts 21
+44022,Acts 22
+44023,Acts 23
+44024,Acts 24
+44025,Acts 25
+44026,Acts 26
+44027,Acts 27
+44028,Acts 28
+45001,Romans 1
+45002,Romans 2
+45003,Romans 3
+45004,Romans 4
+45005,Romans 5
+45006,Romans 6
+45007,Romans 7
+45008,Romans 8
+45009,Romans 9
+45010,Romans 10
+45011,Romans 11
+45012,Romans 12
+45013,Romans 13
+45014,Romans 14
+45015,Romans 15
+45016,Romans 16
+46001,1 Corinthians 1
+46002,1 Corinthians 2
+46003,1 Corinthians 3
+46004,1 Corinthians 4
+46005,1 Corinthians 5
+46006,1 Corinthians 6
+46007,1 Corinthians 7
+46008,1 Corinthians 8
+46009,1 Corinthians 9
+46010,1 Corinthians 10
+46011,1 Corinthians 11
+46012,1 Corinthians 12
+46013,1 Corinthians 13
+46014,1 Corinthians 14
+46015,1 Corinthians 15
+46016,1 Corinthians 16
+47001,2 Corinthians 1
+47002,2 Corinthians 2
+47003,2 Corinthians 3
+47004,2 Corinthians 4
+47005,2 Corinthians 5
+47006,2 Corinthians 6
+47007,2 Corinthians 7
+47008,2 Corinthians 8
+47009,2 Corinthians 9
+47010,2 Corinthians 10
+47011,2 Corinthians 11
+47012,2 Corinthians 12
+47013,2 Corinthians 13
+48001,Galatians 1
+48002,Galatians 2
+48003,Galatians 3
+48004,Galatians 4
+48005,Galatians 5
+48006,Galatians 6
+49001,Ephesians 1
+49002,Ephesians 2
+49003,Ephesians 3
+49004,Ephesians 4
+49005,Ephesians 5
+49006,Ephesians 6
+50001,Philippians 1
+50002,Philippians 2
+50003,Philippians 3
+50004,Philippians 4
+51001,Colossians 1
+51002,Colossians 2
+51003,Colossians 3
+51004,Colossians 4
+52001,1 Thessalonians 1
+52002,1 Thessalonians 2
+52003,1 Thessalonians 3
+52004,1 Thessalonians 4
+52005,1 Thessalonians 5
+53001,2 Thessalonians 1
+53002,2 Thessalonians 2
+53003,2 Thessalonians 3
+54001,1 Timothy 1
+54002,1 Timothy 2
+54003,1 Timothy 3
+54004,1 Timothy 4
+54005,1 Timothy 5
+54006,1 Timothy 6
+55001,2 Timothy 1
+55002,2 Timothy 2
+55003,2 Timothy 3
+55004,2 Timothy 4
+56001,Titus 1
+56002,Titus 2
+56003,Titus 3
+57001,Philemon 1
+58001,Hebrews 1
+58002,Hebrews 2
+58003,Hebrews 3
+58004,Hebrews 4
+58005,Hebrews 5
+58006,Hebrews 6
+58007,Hebrews 7
+58008,Hebrews 8
+58009,Hebrews 9
+58010,Hebrews 10
+58011,Hebrews 11
+58012,Hebrews 12
+58013,Hebrews 13
+59001,James 1
+59002,James 2
+59003,James 3
+59004,James 4
+59005,James 5
+60001,1 Peter 1
+60002,1 Peter 2
+60003,1 Peter 3
+60004,1 Peter 4
+60005,1 Peter 5
+61001,2 Peter 1
+61002,2 Peter 2
+61003,2 Peter 3
+62001,1 John 1
+62002,1 John 2
+62003,1 John 3
+62004,1 John 4
+62005,1 John 5
+63001,2 John 1
+64001,3 John 1
+65001,Jude 1
+66001,Revelation 1
+66002,Revelation 2
+66003,Revelation 3
+66004,Revelation 4
+66005,Revelation 5
+66006,Revelation 6
+66007,Revelation 7
+66008,Revelation 8
+66009,Revelation 9
+66010,Revelation 10
+66011,Revelation 11
+66012,Revelation 12
+66013,Revelation 13
+66014,Revelation 14
+66015,Revelation 15
+66016,Revelation 16
+66017,Revelation 17
+66018,Revelation 18
+66019,Revelation 19
+66020,Revelation 20
+66021,Revelation 21
+66022,Revelation 22
