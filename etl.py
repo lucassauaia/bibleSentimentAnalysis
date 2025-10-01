@@ -62,7 +62,6 @@ print("\nDataFrame exported to 'all_bible_verses.csv'")
 # %%
 # Concatenate all verses [v] by chapter [c], separated by space
 
-
 # Process ASV version
 df_asv_verses['bc'] = df_asv_verses['b'].apply(lambda x: f"{int(x):02d}") + df_asv_verses['c'].apply(lambda x: f"{int(x):03d}")
 df_asv_chapters = df_asv_verses.groupby(['b', 'c'], as_index=False).agg({
@@ -360,3 +359,51 @@ df_original_books.to_csv('02Analytics\\original_bible_books.csv', index=False)
 
 # %%
 # Add sentiment analysis columns to the verses DataFrame
+for col in ['world_english_bible_web', 'king_james_bible_jkv',
+                                       'jewish_publication_society_jps', 'brenton',
+                                       'samaritan_pentateuch_english', 'onkelos_nglish']:
+    # Fill NaN values with empty string to avoid encoding errors
+    df_original_verses[f'{col}_sentiment'] = df_original_verses[col].fillna('').apply(classify_sentiment)
+    df_original_verses[f'{col}_sentiment_score'] = df_original_verses[col].fillna('').apply(lambda x: sia.polarity_scores(x)['compound'])
+
+print("\nVerses DataFrame with sentiment analysis sample:")
+print(df_original_verses.head())
+
+# Export the verses DataFrame with sentiment analysis to CSV
+df_original_verses.to_csv('02Analytics\\original_verses_with_sentiment.csv', index=False)
+
+print("\nVerses DataFrame with sentiment analysis exported to 'original_verses_with_sentiment.csv'")
+
+# %%
+# Add sentiment analysis columns to the chapters DataFrame
+for col in ['world_english_bible_web', 'king_james_bible_jkv',
+                                       'jewish_publication_society_jps', 'brenton',
+                                       'samaritan_pentateuch_english', 'onkelos_nglish']:
+    # Fill NaN values with empty string to avoid encoding errors
+    df_original_chapters[f'{col}_sentiment'] = df_original_chapters[col].fillna('').apply(classify_sentiment)
+    df_original_chapters[f'{col}_sentiment_score'] = df_original_chapters[col].fillna('').apply(lambda x: sia.polarity_scores(x)['compound'])
+
+print("\nChapters DataFrame with sentiment analysis sample:")
+print(df_original_chapters.head())
+
+# Export the chapters DataFrame with sentiment analysis to CSV
+df_original_chapters.to_csv('02Analytics\\original_chapters_with_sentiment.csv', index=False)
+
+print("\nChapters DataFrame with sentiment analysis exported to 'original_chapters_with_sentiment.csv'")
+
+# %%
+# Add sentiment analysis columns to the books DataFrame
+for col in ['world_english_bible_web', 'king_james_bible_jkv',
+                                       'jewish_publication_society_jps', 'brenton',
+                                       'samaritan_pentateuch_english', 'onkelos_nglish']:
+    # Fill NaN values with empty string to avoid encoding errors
+    df_original_books[f'{col}_sentiment'] = df_original_books[col].fillna('').apply(classify_sentiment)
+    df_original_books[f'{col}_sentiment_score'] = df_original_books[col].fillna('').apply(lambda x: sia.polarity_scores(x)['compound'])
+
+print("\nBooks DataFrame with sentiment analysis sample:")
+print(df_original_books.head())
+
+# Export the books DataFrame with sentiment analysis to CSV
+df_original_books.to_csv('02Analytics\\original_books_with_sentiment.csv', index=False)
+
+print("\nBooks DataFrame with sentiment analysis exported to 'original_books_with_sentiment.csv'")
